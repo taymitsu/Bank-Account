@@ -42,7 +42,7 @@ class BankAccount():
         print(f"Account No. :{self.print_hidden_acc()}")
         self.get_balance()   
 
-mitchellAccount = BankAccount("Mitchel Trubisky", "03141592")
+mitchellAccount = BankAccount("Mitchell Trubisky", "03141592")
 mitchellAccount.deposit(400000)
 mitchellAccount.print_statement()
 mitchellAccount.add_interest() 
